@@ -1,6 +1,3 @@
-variable "abc" {}
-variable "xyz" {}
-
 module "azurerm_resource_group" {
     source = "../../../modules/azurerm_resource_group"
     alpha = var.abc          # This variable is defined in the parent module
